@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+         function openNav() {
+          if (document.getElementById("mySidenav").style.width == "250px") {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          else
+          {
+           document.getElementById("mySidenav").style.width = "250px"; 
+          }
+         
+        }
+       function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "See more"; 
+    moreText.style.display = "none";
+    
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+        
+    </script>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+      <div class="icon">
+        <div class="icon1">
+          <img src="img/NoPath - Copy (9).png">
+        </div>
+        <div class="icon2">
+          <h5>Rahul Kumar</h5>
+          <h6>Age: 45</h6>
+          <p>Blood Group: O+</p>
+        </div>
+  
+      </div>
+        <a href="#">Home</a>
+        <a href="#">MyBookings</a>
+        <a href="#">Feedback</a>
+        <a href="#">FAQ</a>
+        <a href="#">Logout</a>
+        <a href="" style=" position: absolute; bottom:30px;"> License</a>
+    </div>
+      <div class="nav">
+        <span style="font-size:30px;cursor:pointer;margin-left: 10px;margin-top: 5px;" onclick="openNav()">&#9776;</span>
+        <span style="margin-left: 110px;font-family: 'Poppins',sans-serif;">Findoctor</span>
+        <span style="margin-left: 100px;"><i class="fa fa-bell"></i></span>
+
+      </div>
+      <div class="ddcall">
+        <div class="clinicd3">
+            <div class="call">
+                <div class="csbtn">
+                  <i class="fa fa-phone-alt"></i>
+                  <p>Call Now</p>
+              
+                </div>
+            </div>
+            <div class="date" ">
+                <p>Monday-Sunday</p>
+                <p>11pm-12pm</p>
+                <p>5am-6am</p>
+            </div>
+
+    </div>
+      </div>
+      <div class="techarads">
+          <h1>Clinic Details</h1>
+      </div>
+      <div class="clincd">
+          <div class="clinicd1">
+              <img src="img/NoPath - Copy (2).png">
+              <div class="clip">
+                  <h1>Bharat Polyclinic</h1>
+                  <li style="list-style: none;">
+                       <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <p>204, Elphinstone House, Murzban Road,</p>
+                    <p>204, Elphinstone House, Murzban Road,</p>
+                  </li>
+
+              </div>
+
+          </div>
+          <div class="clinicd2">
+              
+              <p>
+            
+                Established in the year 1988, Tarini Polyclinic in Panposh Road, Rourkela is a top player in the category Diagnostic Centres in the Rourkela. This well-known establishment acts as a one-stop destination servicing 
+                customers both local and from other parts of Rourkela. Over the course of its journey, this business has established a firm <span id="dots">...</span>
+                <span id="more">
+                    Established in the year 1988, Tarini Polyclinic in Panposh Road, Rourkela is a top player in the category Diagnostic Centres in the Rourkela. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Rourkela. Over the course of its journey, this business has established a firm foothold in it’s industry. The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company. In the near future, this business aims to expand its line of products and services and cater to a larger client base. In Rourkela, this establishment occupies a prominent location in Panposh Road. It is an effortless task in commuting to this establishment as there are various modes of transport readily available. It is at Panposh Road, STI Chowk ,Near Rourkela Government Hospital, which makes it easy for first-time visitors in locating this establishment. It is known to provide top service in the following categories: Diagnostic Centres, Ayurvedic Doctors, Clinics, Pathology Labs, 
+                    Blood Collection Centres, Blood Testing Centres, HIV Testing Centres, Semen Testing Centres.
+
+                </span>
+              </p>
+              <div class="gbtn" onclick="myFunction()" id="myBtn">
+                   <p>Seemore</p>
+              </div>
+            
+            
+
+          </div>
+          <div class="clinicd5">
+              <div class="clinicd6" style="margin-top: 50px;">
+                  <h3>Doctor</h3>
+              </div>
+          <div class="clinicd4">
+              
+             <div class="bt1"><P>Cardiology</P></div>
+             <div class="bt1"><P>Cardiology</P></div>
+             <div class="bt1"><P>Cardiology</P></div>
+
+          </div>
+          </div>
+      </div>
+      <div class="clino">
+          <div class="clino1">
+              <div class="clino1x">
+                  <div class="dts">
+                      <h3>Dr. Mukesh Gupta</h3>
+                      <li style="list-style: none;">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      </li>
+                      <p>MBBS, Diplomater, Indian Board of Cardiology</p>
+                      <p>Experience: 23 years</p>
+
+                  </div>
+                  <div class="dtsi">
+                      <img src="img/NoPath .png">
+                      <div class="dtscx">
+                        <p>Cardiology</p>
+
+                      </div>
+
+                  </div>
+              </div>
+              <div class="dtb">
+                <div class="dtbx" onclick="location.href='';">
+                    <p>Book</p>
+                    
+                </div>
+               
+              </div>
+
+          </div>
+        
+          <div class="clino1">
+            <div class="clino1x">
+                <div class="dts">
+                    <h3>Dr. Mukesh Gupta</h3>
+                    <li>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </li>
+                        <p>MBBS, Diplomater, Indian Board of Cardiology</p>
+                      <p>Experience: 23 years</p>
+
+                </div>
+                <div class="dtsi">
+                    <img src="img/NoPath .png">
+                    <div class="dtscx">
+                        <p>Cardiology</p>
+                    
+                          
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="dtb">
+                <div class="dtbx" onclick="location.href='';">
+                    <p>Book</p>
+                  
+
+
+                </div>
+            </div>
+          </div>
+          <div class="clino1">
+            <div class="clino1x">
+                <div class="dts">
+                    <h3>Dr. Mukesh Gupta</h3>
+                    <li>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </li>
+                        <p>MBBS, Diplomater, Indian Board of Cardiology</p>
+                      <p>Experience: 23 years</p>
+
+                </div>
+                <div class="dtsi">
+                    <img src="img/NoPath .png">
+                    <div class="dtscx">
+                        <p>Cardiology</p>
+                          
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="dtb">
+                <div class="dtbx" onclick="location.href='';">
+                    <p>Book</p>
+                    
+                </div>
+            </div>
+          </div>
+          <div class="clino1">
+            <div class="clino1x">
+                <div class="dts">
+                    <h3>Dr. Mukesh Gupta</h3>
+                    <li>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </li>
+                    <p>MBBS, Diplomater, Indian Board of Cardiology</p>
+                      <p>Experience: 23 years</p>
+
+                </div>
+                <div class="dtsi">
+                    <img src="img/NoPath .png">
+                    <div class="dtscx">
+                        <p>Cardiology</p>
+                          
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="dtb">
+                <div class="dtbx" onclick="location.href='';">
+                    <p>Book</p>
+                    
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="rev">
+        <h2>Reviews</h2>
+    </div>
+    <div class="tea">
+        <div class="tea1">
+            <div class="tea2">
+                <img src="img/Ellipse 2.png">
+            </div>
+            <div class="tea2">
+                <h6>Consulted Dr. Bela Kedia 
+                 for PCOD/PCOS TreatmentVaginal Infection Treatment</h6>
+            </div>
+           
+           
+        </div>
+        <div class="teap">
+         <p>My sister met with an road accident at bangalore and i visited doctor kapil 
+             immediately after some immediate treatments at bangalore. Initially when we saw him, she was not able to walk, mostly </p>
+             </div>
+        <div class="tea1">
+            <div class="tea2">
+             <img src="img/Ellipse 2.png">
+            </div>
+            <div class="tea2"><h6>
+             Consulted Dr. Bela Kedia 
+             for PCOD/PCOS TreatmentVaginal Infection Treatment
+            </h6>
+         </div>
+        
+        </div>
+        <div class="teap">
+         <p>My sister met with an road accident at bangalore and i visited doctor kapil 
+             immediately after some immediate treatments at bangalore. Initially when we saw him, she was not able to walk, mostly </p>
+             </div>
+        <div class="tea1">
+            <div class="tea2">
+             <img src="img/Ellipse 2.png">
+            </div>
+            <div class="tea2">
+                <h6>Consulted Dr. Bela Kedia 
+                 for PCOD/PCOS TreatmentVaginal Infection Treatment</h6>
+            </div>
+            
+        </div>
+        <div class="teap">
+         <p>My sister met with an road accident at bangalore and i visited doctor kapil 
+             immediately after some immediate treatments at bangalore. Initially when we saw him, she was not able to walk, mostly </p>
+             </div>
+        <div class="tea1">
+            <div class="tea2">
+             <img src="img/Ellipse 2.png">
+            </div>
+            <div class="tea2">
+                <h6>Consulted Dr. Bela Kedia 
+                 for PCOD/PCOS TreatmentVaginal Infection Treatment</h6>
+            </div>
+            
+        </div>
+        <div class="teap">
+         <p>My sister met with an road accident at bangalore and i visited doctor kapil 
+             immediately after some immediate treatments at bangalore. Initially when we saw him, she was not able to walk, mostly </p>
+             </div>
+    </div>
+      <br><br><br><br>
+
+  </body>
+  </html>
